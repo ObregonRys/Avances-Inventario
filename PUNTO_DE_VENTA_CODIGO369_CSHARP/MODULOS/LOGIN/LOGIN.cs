@@ -93,6 +93,10 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS
         {
             txtlogin.Text = ((Label)sender).Text;
             panel2.Visible = true;
+            this.Controls.Add(panel2);
+            panel2.Top = 200;
+            panel2.Left = this.Width / 2 - panel2.Width / 2;
+            
             panel1.Visible = false;
             MOSTRAR_PERMISOS();
         }
@@ -747,17 +751,20 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS
                 timer2.Stop();
                 if (lbl_Apertura_De_caja.Text == "Nuevo*****" & lblRol.Text != "Solo Ventas (no esta autorizado para manejar dinero)")
                 {
-                    this.Hide();
+                    //this.Hide();
+                    
                      CAJA.APERTURA_DE_CAJA frm = new CAJA.APERTURA_DE_CAJA();
                     frm.ShowDialog();
-                    this.Hide();
+                    this.Dispose();
+                    //this.Hide();
                 }
                 else
                 {
                     this.Hide();
                     VENTAS_MENU_PRINCIPAL.VENTAS_MENU_PRINCIPALOK frm = new VENTAS_MENU_PRINCIPAL.VENTAS_MENU_PRINCIPALOK();
                     frm.ShowDialog();
-                    this.Hide();
+                    this.Dispose();
+                    //this.Hide();
                 }
             }
         }

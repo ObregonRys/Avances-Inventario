@@ -139,7 +139,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(81, 160);
+            this.label1.Location = new System.Drawing.Point(68, 172);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(128, 36);
             this.label1.TabIndex = 1;
@@ -212,6 +212,7 @@
             // 
             // panel2
             // 
+            this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel2.Controls.Add(this.lblestadoLicencia);
             this.panel2.Controls.Add(this.pictureBox2);
             this.panel2.Controls.Add(this.button13);
@@ -219,7 +220,7 @@
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.flowLayoutPanel2);
             this.panel2.Controls.Add(this.label3);
-            this.panel2.Location = new System.Drawing.Point(236, 140);
+            this.panel2.Location = new System.Drawing.Point(728, 140);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(465, 772);
             this.panel2.TabIndex = 5;
@@ -1058,9 +1059,9 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Black;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(745, 216);
+            this.pictureBox3.Location = new System.Drawing.Point(745, 299);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(430, 538);
+            this.pictureBox3.Size = new System.Drawing.Size(375, 455);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 22;
             this.pictureBox3.TabStop = false;
@@ -1072,7 +1073,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(1920, 970);
-            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lblpermisodeCaja);
             this.Controls.Add(this.lblnombredeCajero);
             this.Controls.Add(this.lblusuario_queinicioCaja);
@@ -1088,6 +1088,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox3);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "LOGIN";
             this.Text = "Ada 369";

@@ -49,6 +49,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CONEXION\CONEXIONMAESTRA.cs" />
+    <Compile Include="CONEXION\Numeros_separadores.cs" />
     <Compile Include="CONEXION\Tamaño_automatico_de_datatables.cs" />
     <Compile Include="MODULOS\CAJA\APERTURA_DE_CAJA.cs">
       <SubType>Form</SubType>
@@ -82,6 +83,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MODULOS\CAJA\APERTURA_DE_CAJA.resx">
+      <DependentUpon>APERTURA_DE_CAJA.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MODULOS\CAJA\CIERRE_DE_CAJA.resx">
       <DependentUpon>CIERRE_DE_CAJA.cs</DependentUpon>
     </EmbeddedResource>
