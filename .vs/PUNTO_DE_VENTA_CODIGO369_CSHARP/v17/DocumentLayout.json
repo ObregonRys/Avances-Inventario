@@ -3,19 +3,19 @@
   "WorkspaceRootPath": "C:\\Sistema de pago profesional\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|C:\\Sistema de pago profesional\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\punto_de_venta_codigo369_csharp\\modulos\\ventas_menu_principal\\ventas_menu_principalok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|solutionrelative:punto_de_venta_codigo369_csharp\\modulos\\ventas_menu_principal\\ventas_menu_principalok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|c:\\sistema de pago profesional\\punto_de_venta_codigo369_csharp\\punto_de_venta_codigo369_csharp\\modulos\\ventas_menu_principal\\ventas_menu_principalok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|solutionrelative:punto_de_venta_codigo369_csharp\\modulos\\ventas_menu_principal\\ventas_menu_principalok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|c:\\sistema de pago profesional\\punto_de_venta_codigo369_csharp\\punto_de_venta_codigo369_csharp\\modulos\\ventas_menu_principal\\ventas_menu_principalok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|solutionrelative:punto_de_venta_codigo369_csharp\\modulos\\ventas_menu_principal\\ventas_menu_principalok.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|c:\\sistema de pago profesional\\punto_de_venta_codigo369_csharp\\punto_de_venta_codigo369_csharp\\conexion\\numeros_separadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|C:\\Sistema de pago profesional\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\punto_de_venta_codigo369_csharp\\conexion\\numeros_separadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|solutionrelative:punto_de_venta_codigo369_csharp\\conexion\\numeros_separadores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|c:\\sistema de pago profesional\\punto_de_venta_codigo369_csharp\\punto_de_venta_codigo369_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|C:\\Sistema de pago profesional\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\punto_de_venta_codigo369_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6018BBC-7CE8-46C1-9C6D-90229962F2EC}|PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP.csproj|solutionrelative:punto_de_venta_codigo369_csharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,24 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "VENTAS_MENU_PRINCIPALOK.cs",
               "DocumentMoniker": "C:\\Sistema de pago profesional\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\MODULOS\\VENTAS_MENU_PRINCIPAL\\VENTAS_MENU_PRINCIPALOK.cs",
               "RelativeDocumentMoniker": "PUNTO_DE_VENTA_CODIGO369_CSHARP\\MODULOS\\VENTAS_MENU_PRINCIPAL\\VENTAS_MENU_PRINCIPALOK.cs",
               "ToolTip": "C:\\Sistema de pago profesional\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\MODULOS\\VENTAS_MENU_PRINCIPAL\\VENTAS_MENU_PRINCIPALOK.cs",
               "RelativeToolTip": "PUNTO_DE_VENTA_CODIGO369_CSHARP\\MODULOS\\VENTAS_MENU_PRINCIPAL\\VENTAS_MENU_PRINCIPALOK.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAWwB4AAAAMAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAwCAAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T19:28:11.408Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VENTAS_MENU_PRINCIPALOK.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Sistema de pago profesional\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\PUNTO_DE_VENTA_CODIGO369_CSHARP\\MODULOS\\VENTAS_MENU_PRINCIPAL\\VENTAS_MENU_PRINCIPALOK.cs",
               "RelativeDocumentMoniker": "PUNTO_DE_VENTA_CODIGO369_CSHARP\\MODULOS\\VENTAS_MENU_PRINCIPAL\\VENTAS_MENU_PRINCIPALOK.cs",
@@ -67,8 +67,7 @@
               "RelativeToolTip": "PUNTO_DE_VENTA_CODIGO369_CSHARP\\CONEXION\\Numeros_separadores.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABTAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-12T18:38:51.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T18:38:51.351Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "PUNTO_DE_VENTA_CODIGO369_CSHARP\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:52:06.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-15T19:52:06.9Z"
             },
             {
               "$type": "Document",

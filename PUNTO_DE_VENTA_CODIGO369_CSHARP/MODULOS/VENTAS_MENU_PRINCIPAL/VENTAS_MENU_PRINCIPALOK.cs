@@ -30,6 +30,7 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.VENTAS_MENU_PRINCIPAL
         {
             CAJA.CIERRE_DE_CAJA frm = new CAJA.CIERRE_DE_CAJA();
             frm.ShowDialog();
+            // correcion en git
         }
     }
 }
