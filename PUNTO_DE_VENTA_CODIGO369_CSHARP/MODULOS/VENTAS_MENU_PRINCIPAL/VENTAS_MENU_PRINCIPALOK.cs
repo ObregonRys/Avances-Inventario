@@ -32,5 +32,25 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.VENTAS_MENU_PRINCIPAL
             frm.ShowDialog();
             // correcion en git
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -203,7 +203,7 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS
 
                 cmd.Parameters.AddWithValue("@estado", "CAJA APERTURADA");
                 cmd.Parameters.AddWithValue("@diferencia", "0.00");
-                cmd.Parameters.AddWithValue("@id_caja", txtidcaja.Text);
+                cmd.Parameters.AddWithValue("@idcaja",Convert.ToInt32( txtidcaja.Text));
 
                 cmd.ExecuteNonQuery();
                 con.Close();

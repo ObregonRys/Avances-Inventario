@@ -94,7 +94,7 @@
             this.toolStripMenuItem2});
             this.menuStrip1.Location = new System.Drawing.Point(38, 190);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(330, 36);
+            this.menuStrip1.Size = new System.Drawing.Size(180, 36);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -154,7 +154,7 @@
             this.datalistado_caja.Name = "datalistado_caja";
             this.datalistado_caja.RowHeadersWidth = 51;
             this.datalistado_caja.RowTemplate.Height = 24;
-            this.datalistado_caja.Size = new System.Drawing.Size(329, 56);
+            this.datalistado_caja.Size = new System.Drawing.Size(329, 90);
             this.datalistado_caja.TabIndex = 4;
             // 
             // APERTURA_DE_CAJA
@@ -170,6 +170,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "APERTURA_DE_CAJA";
             this.Text = "APERTURA_DE_CAJA";
+            this.Load += new System.EventHandler(this.APERTURA_DE_CAJA_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

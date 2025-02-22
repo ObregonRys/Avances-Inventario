@@ -54,6 +54,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.lblId_usuario = new System.Windows.Forms.Label();
             this.lblnumeroIcono = new System.Windows.Forms.Label();
@@ -79,7 +80,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dlg = new System.Windows.Forms.OpenFileDialog();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -252,9 +252,9 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(247)))), ((int)(((byte)(247)))), ((int)(((byte)(247)))));
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.panel4.Location = new System.Drawing.Point(3, 177);
+            this.panel4.Location = new System.Drawing.Point(5, 177);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1366, 576);
+            this.panel4.Size = new System.Drawing.Size(1364, 576);
             this.panel4.TabIndex = 4;
             // 
             // panel5
@@ -295,9 +295,9 @@
             this.panelICONO.Controls.Add(this.pictureBox11);
             this.panelICONO.Controls.Add(this.flowLayoutPanel2);
             this.panelICONO.Controls.Add(this.flowLayoutPanel1);
-            this.panelICONO.Location = new System.Drawing.Point(465, 52);
+            this.panelICONO.Location = new System.Drawing.Point(426, 52);
             this.panelICONO.Name = "panelICONO";
-            this.panelICONO.Size = new System.Drawing.Size(772, 435);
+            this.panelICONO.Size = new System.Drawing.Size(811, 435);
             this.panelICONO.TabIndex = 5;
             this.panelICONO.Paint += new System.Windows.Forms.PaintEventHandler(this.panelICONO_Paint);
             // 
@@ -423,6 +423,13 @@
             this.pictureBox6.TabIndex = 3;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 183);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(200, 100);
+            this.flowLayoutPanel3.TabIndex = 4;
             // 
             // panel10
             // 
@@ -671,13 +678,6 @@
             // dlg
             // 
             this.dlg.FileName = "openFileDialog1";
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(3, 183);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(200, 100);
-            this.flowLayoutPanel3.TabIndex = 4;
             // 
             // usuariosok
             // 

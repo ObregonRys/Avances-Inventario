@@ -28,6 +28,7 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
         {
             try
             {
+                int idcaja=Convert.ToInt32(txtidcaja.Text);
 
                 SqlConnection con = new SqlConnection();
                 con.ConnectionString = CONEXION.CONEXIONMAESTRA.conexion;
@@ -35,7 +36,7 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
                 SqlCommand cmd = new SqlCommand();
                 cmd = new SqlCommand("editar_dinero_caja_inicial", con); /// aqui llamo a mi procedimiento acelerado
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Id_caja", txtidcaja.Text);
+                cmd.Parameters.AddWithValue("@Id_caja",idcaja);
                 cmd.Parameters.AddWithValue("@saldo", txtmonto.Text);
                 cmd.ExecuteNonQuery();
                 con.Close();
@@ -48,7 +49,7 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                    
             }
         }
 
@@ -71,13 +72,13 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                MessageBox.Show(ex.Message + "\n"+ ex.StackTrace);
             }
           
         }
         private void APERTURA_DE_CAJA_Load(object sender, EventArgs e)
         {
-           System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("es-CO");
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("es-CO");
             System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencyDecimalSeparator = ".";
             System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencyGroupSeparator = ",";
             System.Threading.Thread.CurrentThread.CurrentCulture.NumberFormat.NumberDecimalSeparator = ".";
@@ -89,11 +90,11 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
                 MOSTRAR_CAJA_POR_SERIAL();
                 try
                 {
-                    txtidcaja.Text = datalistado_caja.SelectedCells[1].Value.ToString();/// para obtener el idcaja desde el numero 1 de datalsitadocaja que nos ayudara para ingresar el monto de caja
+                    txtidcaja.Text = datalistado_caja.SelectedCells[0].Value.ToString();/// para obtener el idcaja desde el numero 1 de datalsitadocaja que nos ayudara para ingresar el monto de caja
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message);
+                    MessageBox.Show(ex.Message + "\n" + ex.StackTrace);
                 }
             }
 
@@ -207,6 +208,6 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
             {
                 MessageBox.Show(ex.Message);
             }
-        }
+        }        
     }
 }

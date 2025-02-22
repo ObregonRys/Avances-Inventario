@@ -49,6 +49,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CONEXION\CONEXIONMAESTRA.cs" />
+    <Compile Include="CONEXION\Desencryptacion.cs" />
+    <Compile Include="CONEXION\Encryptacion.cs" />
     <Compile Include="CONEXION\Numeros_separadores.cs" />
     <Compile Include="CONEXION\Tamaño_automatico_de_datatables.cs" />
     <Compile Include="MODULOS\CAJA\APERTURA_DE_CAJA.cs">
@@ -69,6 +71,12 @@
     <Compile Include="MODULOS\LOGIN\LOGIN.Designer.cs">
       <DependentUpon>LOGIN.cs</DependentUpon>
     </Compile>
+    <Compile Include="MODULOS\PRODUCTOS_OK\Productos_ok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MODULOS\PRODUCTOS_OK\Productos_ok.Designer.cs">
+      <DependentUpon>Productos_ok.cs</DependentUpon>
+    </Compile>
     <Compile Include="MODULOS\USUARIOS_Y_PERMISOS\usuariosok.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +89,12 @@
     <Compile Include="MODULOS\VENTAS_MENU_PRINCIPAL\VENTAS_MENU_PRINCIPALOK.Designer.cs">
       <DependentUpon>VENTAS_MENU_PRINCIPALOK.cs</DependentUpon>
     </Compile>
+    <Compile Include="PANEL_DE_ADMINISTRACION_DEL_SOFTWARE\CONEXION_MANUAL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PANEL_DE_ADMINISTRACION_DEL_SOFTWARE\CONEXION_MANUAL.Designer.cs">
+      <DependentUpon>CONEXION_MANUAL.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MODULOS\CAJA\APERTURA_DE_CAJA.resx">
@@ -92,11 +106,17 @@
     <EmbeddedResource Include="MODULOS\LOGIN\LOGIN.resx">
       <DependentUpon>LOGIN.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MODULOS\PRODUCTOS_OK\Productos_ok.resx">
+      <DependentUpon>Productos_ok.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MODULOS\USUARIOS_Y_PERMISOS\usuariosok.resx">
       <DependentUpon>usuariosok.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MODULOS\VENTAS_MENU_PRINCIPAL\VENTAS_MENU_PRINCIPALOK.resx">
       <DependentUpon>VENTAS_MENU_PRINCIPALOK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PANEL_DE_ADMINISTRACION_DEL_SOFTWARE\CONEXION_MANUAL.resx">
+      <DependentUpon>CONEXION_MANUAL.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -123,5 +143,6 @@
   <ItemGroup>
     <Content Include="MODULOS\LOGIN\HTMLPage1.html" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

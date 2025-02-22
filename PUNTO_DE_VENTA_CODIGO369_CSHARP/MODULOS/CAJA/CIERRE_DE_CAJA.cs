@@ -57,7 +57,7 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
                     MOSTRAR_CAJA_POR_SERIAL();
                     try
                     {
-                        txtidcaja.Text = datalistado_caja.SelectedCells[1].Value.ToString();
+                        txtidcaja.Text = datalistado_caja.SelectedCells[0].Value.ToString();
                     }
                     catch (Exception ex)
                     {
@@ -89,6 +89,6 @@ namespace PUNTO_DE_VENTA_CODIGO369_CSHARP.MODULOS.CAJA
                 MessageBox.Show(ex.Message);
 
             }
-        }
+        }                
     }
 }

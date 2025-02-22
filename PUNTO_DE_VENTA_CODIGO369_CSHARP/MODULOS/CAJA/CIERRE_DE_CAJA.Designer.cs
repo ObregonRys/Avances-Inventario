@@ -95,6 +95,7 @@
             this.Controls.Add(this.button1);
             this.Name = "CIERRE_DE_CAJA";
             this.Text = "CIERRE_DE_CAJA";
+            this.Load += new System.EventHandler(this.CIERRE_DE_CAJA_Load);
             ((System.ComponentModel.ISupportInitialize)(this.datalistado_caja)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
